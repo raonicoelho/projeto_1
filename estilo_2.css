@@ -1,0 +1,217 @@
+body {
+    background-color: #fee3e6;
+    width: auto;
+}
+
+#cabecalho {
+    text-align: center;
+    width: 100%;
+}
+
+#cabecalho img {
+    position: absolute;
+    margin-top: -300px;
+}
+
+
+h1 {
+margin-left: 0;
+text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: white;
+    font-size: 70px;
+    margin-top: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    color: #76504f;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    font-family: 'Alice', serif;
+    font-weight: 100;
+    color: #3f3f3f;
+    line-height: 140%;
+
+}
+
+header img {
+    width: 500px;
+   position: relative;
+    left: 20%;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+
+#sinopse {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: auto;
+}
+
+#caixa_ficha_tecnica {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: auto;
+    
+}
+div {
+    background-color: white;
+    
+}
+
+#poster {
+display: inline-block;
+}
+
+#poster>img {
+    width: 200px;
+}
+
+#ficha_tecnica {
+display: inline-block;
+
+}
+
+#ficha_tecnica dt {
+    text-align: left;
+    font-family: 'Alice', serif;
+    font-weight: 100;
+    color: #eb7d80;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+#ficha_tecnica dd {
+    text-align: left;
+    font-family: 'Alice', serif;
+    font-weight: 100;
+    color: #3f3f3f;
+    line-height: 140%;
+}
+
+#caixa_elenco {
+    clear:both;
+    float: left;
+
+    padding-right: 50px;
+    padding-top: 20px;
+        margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+
+}
+
+#caixa_elenco_2 {
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 20px;
+        margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.elenco {
+    float: left;
+}
+
+.elenco>img {
+    width: 150px;
+}
+
+figcaption {
+    text-align: center;
+    background-color: white;
+    border-top: 3px solid #514859;
+    font-family: 'Alice', serif;
+    font-weight: 100;
+    color: #3f3f3f;
+    line-height: 140%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.caixa_cenas {
+    clear:both;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    margin-left: 135px;
+    margin-right: 100px;
+    width: auto;
+}
+.caixa_cenas img {
+    float: left;
+    margin: 2px;
+}
+
+.caixa_cenas img:nth-of-type(3) {
+    padding-bottom: 30px;
+}
+
+.cenas>img {
+    width: 300px;
+}
+
+#caixa_trailer {
+    clear:both;
+    padding-left: 135px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+
+}
+
+#caixa_trailer>iframe {
+    width: 600px;
+    height: 337px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Alice', serif;
+    font-weight: 100;
+    color: #3f3f3f;
+    line-height: 140%;
+    font-size: smaller;
+    padding-bottom: 20px;
+    padding-top: 20px;
+        margin-left: 100px;
+    margin-right: 100px;
+}
+
+#copy {
+    text-align: center;
+    
+}
+
+a {
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    color: #3f3f3f;
+    line-height: 140%;  
+}
+
+a:hover {
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    color: #527a86;
+    line-height: 140%;  
+}
